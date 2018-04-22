@@ -120,7 +120,7 @@ X = X.drop(['ID_Client', 'ID_ACC'], axis = 1)
 
 # In[19]:
 
-
+# Last found errors
 X['Статус'] = X['Статус'].replace(to_replace=['Предварительный ввод', 'Ожидает подтверждения'], value=[2, 3])
 
 
