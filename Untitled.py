@@ -134,7 +134,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 
 # Implementing SVM to dataset
 
-# In[ ]:
+# In[21]:
 
 
 from sklearn import svm
@@ -142,13 +142,13 @@ clf = svm.SVC()
 clf.fit(X_train, Y_train)
 
 
-# In[ ]:
+# In[22]:
 
 
 pred = clf.predict(X_test)
 
 
-# In[ ]:
+# In[23]:
 
 
 from sklearn.metrics import accuracy_score
